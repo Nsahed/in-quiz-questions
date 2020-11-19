@@ -93,7 +93,7 @@
 - [ ] widgets, containers, sections, settings
 - [ ] containers, hooks, settings, styles
 - [ ] panels, blocks, controls, settings
-- [ ] panels, sections, controls, settings
+- [x] panels, sections, controls, settings
 
 #### Q12. Which WordPress setting would you use to make page URLs look like `http://example.com/my-page/` instead of the default `http://example.com/?p=21/?`
 
@@ -127,7 +127,7 @@
 
 - [ ] Template tags prefaced with the\_ don't accept arguments.
 - [ ] Template tags prefaced with the\_ can be used directly within a template.
-- [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
+- [x] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
 
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
@@ -141,7 +141,7 @@
 
 - [ ] MU Admin
 - [ ] Owner
-- [ ] Super Admin
+- [x] Super Admin
 - [ ] Multisite Master
 
 #### Q19. Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
@@ -269,7 +269,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q32. What technique would you use to secure data before rendering it to a user?
 
-- [ ] escape and sanitize
+- [x] escape and sanitize
 - [ ] validate and escape
 - [ ] validate and sanitize
 - [ ] escape and secure
@@ -278,12 +278,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
 - [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
-- [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
+- [x] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
-- [ ] register_post_type
+- [x] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
 - [ ] init
@@ -314,12 +314,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] apply_filters( 'Hello World!', 'mytextdomain' );
 - [ ] \_\_( 'Hello World!', 'mytextdomain' );
 - [ ] \$string = "Hello World!";
-- [ ] esc_html( 'Hello World!', 'mytextdomain' );
+- [x] esc_html( 'Hello World!', 'mytextdomain' );
 
 ### Q39. What is the core mission of WordPress?
 
 - [ ] to make free software
-- [ ] to democratize publishing and the freedoms that come with open source
+- [x] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
 
